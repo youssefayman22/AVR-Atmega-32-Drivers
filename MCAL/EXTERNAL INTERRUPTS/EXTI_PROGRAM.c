@@ -217,7 +217,7 @@ EXTI_Error_Status EXTI_InitINT2(u8 Copy_u8SenseState, void (*PtrCallBack)(void))
 	}
 
 
-	EXTI_SensingStateINT1(Copy_u8SenseState);
+	EXTI_SensingStateINT2(Copy_u8SenseState);
 	EXTI_VoidEnableINT2();
 
 	return Loc_Error_Status;
